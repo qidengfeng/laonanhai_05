@@ -1,0 +1,1 @@
+#!/usr/bin/env python 3.9# coding:utf-8"""Project: 老男孩File: bytes.pyCreator: dengfengqiCreate time: 2021-03-07 15:13IDE: PyCharmIntroduction:"""# l="天下无仔"# print(l.encode(encoding="gbk"))# print(l.encode(encoding="gbk",errors="utf-8").decode(encoding="gbk"))
