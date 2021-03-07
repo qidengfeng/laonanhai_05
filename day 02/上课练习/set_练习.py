@@ -1,0 +1,1 @@
+#!/usr/bin/env python 3.9# coding:utf-8"""Project: 老男孩File: set_练习.pyCreator: dengfengqiCreate time: 2021-03-07 10:10IDE: PyCharmIntroduction:"""ll=["小米姑娘","小红姑娘","白雪姑娘"]l2=["大学姑娘","小红姑娘","白雪姑娘"]sets=set()for i in ll:    if i in l2:       sets.add(i)print(sets)
