@@ -1,0 +1,1 @@
+#!/usr/bin/env python 3.9# coding:utf-8"""Project: 老男孩File: tail日志写入工具.pyCreator: dengfengqiCreate time: 2021-03-07 17:48IDE: PyCharmIntroduction:"""import timei=0while True:    with open("c.txt",mode="at",encoding="utf8") as f:       res= f.write(f"这是一个逗比！！！{i}\n")       print(res)       i += 1    time.sleep(3)

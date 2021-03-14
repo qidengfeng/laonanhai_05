@@ -1,0 +1,1 @@
+#!/usr/bin/env python 3.9# coding:utf-8"""Project: 老男孩File: tail 日志查看工具.pyCreator: dengfengqiCreate time: 2021-03-12 21:53IDE: PyCharmIntroduction:"""import timewith open("c.txt",mode="rt",encoding="utf8") as f:    while True:        f.seek(0,1)        time.sleep(3)        print(f.readline())
