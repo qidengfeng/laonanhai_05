@@ -1,0 +1,1 @@
+#!/usr/bin/env python 3.9# coding:utf-8from  core import srcif __name__ == '__main__':    src.run()

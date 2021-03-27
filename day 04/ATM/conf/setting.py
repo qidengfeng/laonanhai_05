@@ -1,0 +1,1 @@
+#!/usr/bin/env python 3.9# coding:utf-8import osPath_base=os.path.dirname(os.path.dirname(__file__))print(Path_base)
